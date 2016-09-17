@@ -1,0 +1,22 @@
+galaxy_info:
+  author: Phil Porada
+  description: Installs and configures SaltStack minions/masters
+  company: PhlJny
+  license: MIT
+
+  min_ansible_version: 2.1
+  github_branch: master
+
+  platforms:
+  - name: EL
+    versions:
+    - 6
+    - 7
+  galaxy_tags:
+    - salt
+    - saltstack
+    - configuration
+    - management
+    - orchestration
+
+dependencies: []
