@@ -3,6 +3,8 @@
 Role Name
 =========
 
+ansible-role-repo-salt
+
 This role installs the Salt repository.
 
 Requirements
