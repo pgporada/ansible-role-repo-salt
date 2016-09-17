@@ -1,9 +1,6 @@
-[![Build Status](https://travis-ci.org/pgporada/ansible-role-repo-salt.svg?branch=master)](https://travis-ci.org/pgporada/ansible-role-repo-salt)
-
 Role Name
 =========
-
-ansible-role-repo-salt
+[![Build Status](https://travis-ci.org/pgporada/ansible-role-repo-salt.svg?branch=master)](https://travis-ci.org/pgporada/ansible-role-repo-salt)
 
 This role installs the Salt repository.
 
