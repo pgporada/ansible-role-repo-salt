@@ -16,7 +16,7 @@ before_install:
 
 script:
   # Run container in detached state
-  - sudo docker run --detach --privileged --volume="${PWD}":/etc/ansible/roles/ansible-role-repo-salt:ro --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro docker-cent /usr/lib/systemd/systemd > /tmp/container_id
+  - sudo docker run --detach --privileged --volume=$(pwd):/etc/ansible/roles/ansible-role-repo-salt:ro --volume=/sys/fs/cgroup:/sys/fs/cgroup:ro docker-cent /usr/lib/systemd/systemd > /tmp/container_id
   # Check syntax of ansible playbook
   - sudo docker exec "$(cat /tmp/container_id)" ansible-playbook /etc/ansible/roles/ansible-role-repo-salt/integration/default/default.yml --syntax-check
   # Run ansible playbook
