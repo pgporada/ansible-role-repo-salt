@@ -1,9 +1,8 @@
 ---
-
 - name: Copy the repository file
   copy:
     src: etc/yum.repos.d/saltstack.repo
-    dest: /etc/yum/repos.d/saltstack.repo
+    dest: /etc/yum.repos.d/saltstack.repo
     owner: root
     group: root
     mode: 0644
