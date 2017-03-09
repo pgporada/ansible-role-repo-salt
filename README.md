@@ -1,5 +1,5 @@
 # Ansible Role: ansible-role-repo-salt
-[![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-repo-salt-blue.svg)](https://galaxy.ansible.com/pgporada/salt/)
+[![Ansible Galaxy](https://img.shields.io/badge/ansible--galaxy-repo--salt-blue.svg)](https://galaxy.ansible.com/pgporada/repo-salt/)
 [![License](https://img.shields.io/badge/license-ISC-brightgreen.svg)](LICENSE)
 
 Installs the Salt repository
